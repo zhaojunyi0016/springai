@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: bigProject
+
+  ai:
+    dashscope:
+      api-key: sk-a0486c756be34625a31787aa32ca37bb
+      chat:
+        options:
+          model: qwen-plus
