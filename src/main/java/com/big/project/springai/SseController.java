@@ -27,7 +27,7 @@ public class SseController {
         Executors.newFixedThreadPool(10).submit(() -> {
             try {
                 for (int i = 0; i < 10; i++) {
-                    sse.send("i==== " + i);
+                    sse.send("i====== " + i);
                 }
             } catch (IOException e) {
                 sse.completeWithError(e);
